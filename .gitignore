@@ -1,0 +1,49 @@
+# .gitignore
+
+# Ignore the Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+
+# Ignore the PyCharm project settings
+.idea/
+
+# Ignore all log files
+*.log
+
+# Ignore all system files
+**/.DS_Store
+
+# Ignore all code outputs
+Z*
+
+# Ignore all test codes
+Test_notebook.ipynb
+
+# Ignore all scripts from server
+onstart.sh
+
+# Ignore readme (because of remote servers)
+README.md
+
+# Ignore all files created on vast.ai server
+.dockerenv
+.launch
+bin
+dev/
+etc/
+lib
+lib32
+lib64
+libx32
+opt/
+proc/
+root/
+run/
+sbin
+sys/
+tmp/
+usr/
+var/
